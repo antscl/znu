@@ -1,0 +1,46 @@
+header, footer, .header, .footer {
+  display: none;
+}
+
+.content {
+  display: block;
+}
+
+* {
+  background: none !important;
+  color: black !important;
+}
+
+a:after {
+  content: " (" attr(href) ")";
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Times New Roman", Georgia, serif;
+}
+
+@page {
+  margin: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+img {
+  display: none;
+}
